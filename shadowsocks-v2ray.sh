@@ -43,7 +43,7 @@ set_domain(){
         read domain
         str=`echo $domain | grep '^\([a-zA-Z0-9_\-]\{1,\}\.\)\{1,\}[a-zA-Z]\{2,5\}'`
     done
-    echo "\033[1;35mdomain = ${domain}\033[0m"
+    echo "\033[1;35mDomínio = ${domain}\033[0m"
 }
 
 # Pré-instalação
